@@ -1,0 +1,5 @@
+
+{
+java:S1488,"^Immediately return this expression instead of assigning it to the temporary variable "result".(´®­ÿ8‚åÿÚŸ2
+
+java:S1130 "nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(›ĞÑÄşÿÿÿÿ8‰åÿÚŸ2
