@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7dc248-56cb-43bf-acf0-0e39a86eac66" name="Changes" comment="" />
+    <list default="true" id="1c7dc248-56cb-43bf-acf0-0e39a86eac66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bd27984ab2cac4a306782de3ef89fc8937f7189" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bc941d32c01da43b87395b8808b875b6f3f2630" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33b2d0b5567d1a1a03867d66f9f8d1e1a6f53e42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95fb650c7b06930a3699b9f9c65a21e8a782229f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e701f825f9999bc060591889f42a6afa756aebcd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f68ba7332f189208ba34fe72247b2fda2bb235a5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0bd27984ab2cac4a306782de3ef89fc8937f7189" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/b/2bc941d32c01da43b87395b8808b875b6f3f2630" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/3/33b2d0b5567d1a1a03867d66f9f8d1e1a6f53e42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/5/95fb650c7b06930a3699b9f9c65a21e8a782229f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/7/e701f825f9999bc060591889f42a6afa756aebcd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f68ba7332f189208ba34fe72247b2fda2bb235a5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/AddTicketStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/CliFSM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/PlanetChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cli/PlanetStates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d478b5a3b04baf3f105cdf3b21da346d7438ec9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d478b5a3b04baf3f105cdf3b21da346d7438ec9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72cdfaab862157637c6abd282976aee16a3bb96a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72cdfaab862157637c6abd282976aee16a3bb96a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aeecfd5446e59b53cb2bfa0fabf411611ccb9f1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aeecfd5446e59b53cb2bfa0fabf411611ccb9f1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/devclassmodule8/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/devclassmodule8/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/storage/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/storage/ConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ticket/TicketDaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ticket/TicketDaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/db/migration/V1__create_passenger_ticket_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/db/migration/V1__create_passenger_ticket_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacetrain.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/spacetrain.mv.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,15 +55,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2m9ZewAJjkn1ALor7Lh29gMuLyZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -64,5 +105,8 @@
       <updated>1726490855483</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

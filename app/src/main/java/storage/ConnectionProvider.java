@@ -14,8 +14,8 @@ public class ConnectionProvider {
         connections = new ArrayList<>();
     }
 
-    public Connection createConnection(String connectionUrl) throws SQLException {
-        Connection conn = DriverManager.getConnection(connectionUrl);
+    public Connection createConnection() throws SQLException {
+        Connection conn = DriverManager.getConnection(StorageConstance.CONNECTION_URL);
         connections.add(conn);
         return conn;
     }

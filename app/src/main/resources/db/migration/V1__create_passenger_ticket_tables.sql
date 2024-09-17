@@ -9,5 +9,5 @@ id IDENTITY PRIMARY KEY,
 passenger_id BIGINT,
 from_planet VARCHAR(100),
 to_planet VARCHAR(100),
-FOREIGN KEY (passenger_id) REFERENCES passenger(id) ON DELETE CASCADE ON UPDATE CASCADE
+FOREIGN KEY (passenger_id) REFERENCES passenger(id)
 );

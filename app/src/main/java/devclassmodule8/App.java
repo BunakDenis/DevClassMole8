@@ -3,6 +3,7 @@
  */
 package devclassmodule8;
 
+import cli.CliFSM;
 import passenger.Passenger;
 import passenger.PassengerDaoService;
 import storage.ConnectionProvider;
@@ -13,19 +14,16 @@ import ticket.Ticket;
 import ticket.TicketDaoService;
 
 import java.sql.SQLException;
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 public class App {
 
     public static void main(String[] args) throws SQLException, ExecutionException, InterruptedException {
-        new DatabaseInitService().initDb();
+/*        new DatabaseInitService().initDb();
         ConnectionProvider connProv = new ConnectionProvider();
-        PassengerDaoService psDaoServ = new PassengerDaoService(connProv.createConnection(
-                StorageConstance.CONNECTION_URL
-        ));
-        TicketDaoService ticketDaoService = new TicketDaoService(connProv.createConnection(
-                StorageConstance.CONNECTION_URL
-        ));
+        PassengerDaoService psDaoServ = new PassengerDaoService(connProv.createConnection());
+        TicketDaoService ticketDaoService = new TicketDaoService(connProv.createConnection());
 
         Passenger ps = new Passenger();
         Ticket ticket = new Ticket();
@@ -42,13 +40,17 @@ public class App {
         long ticketId = ticketDaoService.create(ticket);
         ticket.setId(ticketId);
 
-        long countTicketsFromJupiter = ticketDaoService.getTicketCountToPlanet(Planet.Jupiter);
-        long countTicketsFromEarth = ticketDaoService.getTicketCountToPlanet(Planet.Earth);
+        long countTicketsToEarth = ticketDaoService.getTicketCountToPlanet(Planet.Earth);
 
-        System.out.println("countTicketsFromJupiter = " + countTicketsFromJupiter);
-        System.out.println("countTicketsFromEarth = " + countTicketsFromEarth);
+        System.out.println("countTicketsToEarth = " + countTicketsToEarth);
 
+        connProv.close();*/
 
-        connProv.close();
+        ConnectionProvider connectionProvider = new ConnectionProvider();
+
+        new CliFSM(connectionProvider);
+
+        connectionProvider.close();
+
     }
 }

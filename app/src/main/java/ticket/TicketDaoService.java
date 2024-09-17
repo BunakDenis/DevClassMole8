@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.*;
 
 public class TicketDaoService {
@@ -11,6 +13,7 @@ public class TicketDaoService {
     PreparedStatement createSt;
     PreparedStatement getMaxIdSt;
     PreparedStatement getTicketCountToPlanetSt;
+    PreparedStatement getAllSt;
     ExecutorService executorService;
 
     public TicketDaoService(Connection connection) throws SQLException {
@@ -25,6 +28,10 @@ public class TicketDaoService {
 
         getTicketCountToPlanetSt = connection.prepareStatement(
                 "SELECT count(*) AS cnt FROM ticket WHERE to_planet = ?"
+        );
+
+        getAllSt = connection.prepareStatement(
+                "SELECT * FROM ticket"
         );
 
     }
@@ -60,9 +67,28 @@ public class TicketDaoService {
             if (!rs.next()) {
                 return -1;
             }
-
             return rs.getLong("cnt");
-
         }
+    }
+
+    public List<Ticket> getAll() {
+        List<Ticket> result = new ArrayList<>();
+
+        try(ResultSet rs = getAllSt.executeQuery()) {
+            while (rs.next()) {
+                Ticket ticket = new Ticket();
+
+                ticket.setId(rs.getLong("id"));
+                ticket.setPassenger_id(rs.getLong("passenger_id"));
+                ticket.setFrom(Planet.valueOf(rs.getString("from_planet")));
+                ticket.setTo(Planet.valueOf(rs.getString("to_planet")));
+
+                result.add(ticket);
+
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }

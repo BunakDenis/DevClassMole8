@@ -1,5 +1,7 @@
 
-{
-java:S1488,"^Immediately return this expression instead of assigning it to the temporary variable "result".(´®­ÿ8‚åÿÚŸ2
-
-java:S1130 "nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(›ĞÑÄşÿÿÿÿ8‰åÿÚŸ2
+¡
+java:S14883"^Immediately return this expression instead of assigning it to the temporary variable "result".(´®­ÿ8—¯µƒ 2J$ed9b2fda-35f5-41a4-a951-11314c021a48
+a
+java:S6905""Don't use the query "SELECT *".(Ş×Q8¯µƒ 2J$7cf929b5-1da1-4837-ab94-10a39791c6f5
+¶
+java:S1130'"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(›ĞÑÄşÿÿÿÿ8Ÿ¯µƒ 2J$09e125f8-6445-4ddd-a5e2-600051e602b1

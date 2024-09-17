@@ -1,2 +1,24 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÇÀŒýÿÿÿÿ8ïÆÔÚŸ2J$54d34ceb-b1dd-4e09-91e2-ab5ea1ce1a0a
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÇÀŒýÿÿÿÿ8¯–½ƒ 2J$5ee3a19f-17f4-4401-af92-c4fd08523de8
+£
+java:S1130"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(”µÇºúÿÿÿÿ8Àïœ„ 2
+™
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(”µÇºúÿÿÿÿ8Àïœ„ 2
+~	java:S125"<This block of commented-out lines of code should be removed.(þñ·Ã8øªËƒ 2J$a06f4d11-f225-4922-9fd0-033083368b50
+M
+java:S1128"0Remove this unused import 'passenger.Passenger'.(¡ÈÚ²8Æïœ„ 2
+\
+java:S1128":Remove this unused import 'passenger.PassengerDaoService'.(ÿã²Êøÿÿÿÿ8Æïœ„ 2
+Z
+java:S1128
+"8Remove this unused import 'storage.DatabaseInitService'.(•ÔÅøÿÿÿÿ8Æïœ„ 2
+W
+java:S1128"5Remove this unused import 'storage.StorageConstance'.(×©È¸øÿÿÿÿ8Æïœ„ 2
+L
+java:S1128"*Remove this unused import 'ticket.Planet'.(ëÏ›Ðøÿÿÿÿ8Çïœ„ 2
+L
+java:S1128"*Remove this unused import 'ticket.Ticket'.(…æò×ÿÿÿÿÿ8Çïœ„ 2
+V
+java:S1128"4Remove this unused import 'ticket.TicketDaoService'.(ÂÁÄÉúÿÿÿÿ8Çïœ„ 2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Çïœ„ 2
